@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="main.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <title>WaguWagu</title>
+</head>
+
+<body>
+
+  <div class="mypic">
+    <h1>WAGUWAGU</h1> <br>
+    <p>트랜디한 맛집 소식을 확인해보세요 :)</p>
+  
+  <div class="mypost">
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="name" placeholder="url" />
+      <label for="floatingInput">제 목</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="name" placeholder="url" />
+      <label for="floatingInput">맛집이름</label>
+    </div>
+
+    <div class="input-group mb-3">
+      <select class="form-select" id="star">
+          <option selected>나의평가</option>
+          <option value="1">⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+      </select>
+  </div>
+
+  <div class="row g-2">
+    <div class="col-md">
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelectGrid">
+          <option selected>지역선택</option>
+          <option value="1">경기</option>
+          <option value="2">서울</option>
+          <option value="3">광교</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelectGrid">
+          <option selected>음식종류</option>
+          <option value="1">한식</option>
+          <option value="2">일식</option>
+          <option value="3">꼬기</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+<br>
+
+    <div class="form-floating">
+      <textarea
+        class="form-control"
+        placeholder="Leave a comment here"
+        id="comment"
+        style="height: 100px"
+      ></textarea>
+      <label for="floatingTextarea2">맛집정보 (ex. 추천이유, 인상 깊었던 점, 추천메뉴 등)</label>
+    </div>
+    <br>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="name" placeholder="url" />
+      <label for="floatingInput">맛집 url</label>
+    </div>
+
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="name" placeholder="url" />
+      <label for="floatingInput">비밀번호</label>
+    </div>
+
+    <button onclick="save_comment()" type="button" class="btn btn-dark">
+      나의 추천 맛집 공유하기 !!
+    </button>
+    
+  </div>
+</div>
+
+</body>
+</html>
