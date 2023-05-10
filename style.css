@@ -40,3 +40,24 @@ h1 {
 button {
   width: 100%;
 }
+
+.user {
+  font-size: 50px;
+  color: orange;
+}
+
+.koreanFood {
+  font-size: 50px;
+  color: orange;
+}
+
+.japanesFood {
+  font-size: 50px;
+  color: orange;
+}
+
+.meat {
+  font-size: 50px;
+  color: orange;
+}
+
